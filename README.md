@@ -3,7 +3,8 @@
 ## User Story :
 #### Skateboard Magazine
 * As a skateboard magazine company I would like to show a skater of the day on my website, to display skaters for possible sponsorships.
-This integration would first save clients from asking me to update their page everytime they post. Skating is also a slowly dying industry, but if more people see the value in it (Like a new skateboard magazine) they will more likely sponsor new skaters. Skaters will also be incouraged to post their stunts, to hopefully get featured on the page.
+
+* This integration would first save clients from asking me to update their page everytime they post. Skating is also a slowly dying industry, but if more people see the value in it (Like a new skateboard magazine) they will more likely sponsor new skaters. Skaters will also be incouraged to post their stunts, to hopefully get featured on the page.
 
 ## Task Flow
 1. Log into your business profile
