@@ -1,11 +1,11 @@
 <template>
   <header>
     <nav>
-      <div><nuxt-link class="text-4xl" to="/">Brasher</nuxt-link></div>
+      <div class="logo"><nuxt-link class="text-4xl" to="/">Brasher</nuxt-link></div>
       <ul class="nav-li">
         <li><nuxt-link to="/">Home</nuxt-link></li>
-        <li><nuxt-link to="#">About</nuxt-link></li>
-        <li><nuxt-link to="#">Blog</nuxt-link></li>
+        <li><nuxt-link to="#">Video</nuxt-link></li>
+        <li><nuxt-link to="#">Magazine</nuxt-link></li>
         <li><nuxt-link to="#">Contact</nuxt-link></li>
       </ul>
     </nav>
@@ -31,6 +31,10 @@ nav li {
 
 header {
   @apply text-white bg-gray-900 p-8;
+}
+
+.logo {
+  font-family: 'Metal Mania', cursive;
 }
 </style>
 
