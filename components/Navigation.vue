@@ -1,7 +1,7 @@
 <template>
   <header>
     <nav>
-      <div class="logo"><nuxt-link class="text-4xl" to="/">Brasher</nuxt-link></div>
+      <div class="logo"><nuxt-link class="text-4xl" to="/">BRASHER</nuxt-link></div>
       <ul class="nav-li">
         <li><nuxt-link to="/">Home</nuxt-link></li>
         <li><nuxt-link to="#">Video</nuxt-link></li>
