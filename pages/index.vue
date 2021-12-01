@@ -20,13 +20,13 @@ body {
   const response = await fetch('/.netlify/functions/skaterapi')
   const data = await response.json()
 
-  const skater = data.data.find((item) => item.caption.includes('#skateroftheday'))
+  const skater = data.find((item) => item.caption.includes('#skateroftheday'))
   // INNER HTML HERE
-  document.querySelector('.skateroutput').innerHTML = `
-  <figure>
-  <img src='${skater.media_url}'
-  <p>${skater.caption}</p>
-  </figure>
+   document.querySelector('.skateroutput').innerHTML = `
+   <figure>
+   <img src='${skater.url}'
+   <p>${skater.caption}</p>
+   </figure>
   `
   console.log(data)
   }
