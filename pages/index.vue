@@ -86,7 +86,7 @@ body {
    document.querySelector('.skateroutput').innerHTML = `
    <figure>
    <img src='${skater.url}'
-   <p class="m-6 text-xl">${skater.caption}</p>
+   <p class="m-6 text-xl">${skater.caption.replace('#skateroftheday', '')}</p>
    </figure>
   `
   console.log(data)
