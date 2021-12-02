@@ -48,6 +48,7 @@ export default {
   googleFonts: {
     families: {
       'Metal+Mania': true,
+      'Bitter': true,
     }
   }
 }

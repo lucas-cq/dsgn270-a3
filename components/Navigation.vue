@@ -1,7 +1,7 @@
 <template>
   <header>
     <nav>
-      <div class="logo"><nuxt-link class="text-4xl" to="/">BRASHER</nuxt-link></div>
+      <div class="logo"><nuxt-link class="text-6xl" to="/">BRASHER</nuxt-link></div>
       <ul class="nav-li">
         <li><nuxt-link to="/">Home</nuxt-link></li>
         <li><nuxt-link to="#">Video</nuxt-link></li>
@@ -22,7 +22,7 @@ nav ul {
 }
 
 nav li {
-  @apply list-none mx-8;
+  @apply list-none mx-8 my-auto;
 }
 
 .nav-li {
@@ -35,6 +35,10 @@ header {
 
 .logo {
   font-family: 'Metal Mania', cursive;
+}
+
+ul li {
+  font-family: 'Bitter', serif;
 }
 </style>
 
