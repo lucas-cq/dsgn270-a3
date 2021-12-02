@@ -2,7 +2,7 @@
   <div>
     <Navigation />
     <section>
-      <h1>#SKATER OF THE DAY</h1>
+      <h1 class="text-5xl text-center m-8">#SKATER OF THE DAY</h1>
       <div class="skateroutput"></div>
     </section>
     <Footer />
@@ -13,6 +13,9 @@
 body {
   @apply bg-gray-800 text-white
 }
+.skateroutput img {
+  @apply w-60
+} 
 </style>
 
 <script>
