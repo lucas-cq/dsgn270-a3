@@ -27,10 +27,6 @@ body {
   @apply mt-16 mb-20
 }
 
-.skateroutput p {
-  @apply m-6 text-xl
-}
-
 .skateroutput figure{
   display: flex;
   justify-content: center;
@@ -88,9 +84,9 @@ body {
   const skater = data.find((item) => item.caption.includes('#skateroftheday'))
   // INNER HTML HERE
    document.querySelector('.skateroutput').innerHTML = `
-   <figure class="bg-gray-900">
+   <figure>
    <img src='${skater.url}'
-   <p>${skater.caption}</p>
+   <p class="m-6 text-xl">${skater.caption}</p>
    </figure>
   `
   console.log(data)
