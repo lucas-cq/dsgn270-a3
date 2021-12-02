@@ -14,7 +14,7 @@ body {
   @apply bg-gray-800 text-white
 }
 .skateroutput img {
-  @apply w-60
+  @apply w-96
 } 
 </style>
 
