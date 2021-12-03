@@ -43,7 +43,7 @@ body {
 }
 
 .skateroutput img {
-  @apply w-96 rounded-xl
+  @apply w-96 rounded-t-xl
 } 
 
 .hero-section {
@@ -80,6 +80,7 @@ body {
   font-family: 'Bitter', serif ;
   font-size: 1.25rem ;
   margin: 1.5rem ;
+  text-align: center;
 }
 </style>
 
