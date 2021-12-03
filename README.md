@@ -9,7 +9,7 @@
 ## Task Flow
 1. Log into your business profile on instagram
 2. Find a skater you would like to award skater of the day
-3. Make a new post inlcuding the hashtag : #skateroftheday
+3. Make a new post inlcuding the name of the skater followed by the hashtag : #skateroftheday
 4. Navigate back to your website
 5. Refresh your website
 6. Success! 
