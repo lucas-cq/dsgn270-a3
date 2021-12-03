@@ -71,8 +71,10 @@ body {
   width: 100%;
 }
 
-.skateroutput p {
-  font-family: 'Bitter', serif;
+.skatertext {
+  font-family: 'Bitter', serif ;
+  font-size: 1.25rem ;
+  margin: 1.5rem ;
 }
 </style>
 
@@ -86,7 +88,7 @@ body {
    document.querySelector('.skateroutput').innerHTML = `
    <figure>
    <img src='${skater.url}'
-   <p class="m-6 text-xl">${skater.caption.replace('#skateroftheday', '')}</p>
+   <p class="skatertext">${skater.caption.replace('#skateroftheday', '')}</p>
    </figure>
   `
   console.log(data)
