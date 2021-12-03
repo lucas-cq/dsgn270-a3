@@ -14,7 +14,7 @@
 5. Refresh your website
 6. Success! 
 
-## Securing an API
+## Securing the API
 To secure the API I used [this article](https://harrisonkolor.medium.com/using-the-instagram-api-serverless-netlify-to-display-your-own-photos-in-2021-7923014522d0) to add a Netlify toml file that points to a functions folder. In this folder is a script that uses axios and dotenv. Now all the tokens usually found in the ".env" file are secured in my Netlify environment variables. I wish Netlify had a feature where you could just add the actual .env file so the code still points to that file but only the user and Netlify have access to it.
 This feature would remove a lot of hassle and dry up your code.
 
@@ -34,4 +34,5 @@ This feature would remove a lot of hassle and dry up your code.
 * [Tom Morbey](https://unsplash.com/photos/QJz32ZuCArg)
 * [Remove a specific word in a string](https://www.codegrepper.com/code-examples/java/remove+specific+word+from+string+javascript)
 * [Only display img with this key word](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+* [Using the Instagram API + Serverless Netlify to display your own Photos in 2021](https://harrisonkolor.medium.com/using-the-instagram-api-serverless-netlify-to-display-your-own-photos-in-2021-7923014522d0)
 * Some style inspiration from [Thrasher](https://www.thrashermagazine.com/)
