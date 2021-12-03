@@ -82,12 +82,13 @@ body {
   const instagramApi = async () => {
   const response = await fetch('/.netlify/functions/skaterapi')
   const data = await response.json()
-
   const skater = data.find((item) => item.caption.includes('#skateroftheday'))
+  const displaySkater = document.querySelector('.skateroutput')
   // INNER HTML HERE
-   document.querySelector('.skateroutput').innerHTML = `
+
+   displaySkater.innerHTML = `
    <figure>
-   <img src='${skater.url}'
+   <img src='${skater.url}' alt="An image of our daily skater">
    <p class="skatertext">${skater.caption.replace('#skateroftheday', '')}</p>
    </figure>
   `
