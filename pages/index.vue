@@ -59,10 +59,6 @@ body {
   flex-flow: column;
 }
 
-.hero-text h1 {
-  padding: 15px 20px 0px 20px;
-}
-
 .hero-text p {
   @apply mb-6
 }
