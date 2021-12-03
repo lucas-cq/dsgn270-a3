@@ -23,6 +23,6 @@
 * [Jan Kopriva](https://unsplash.com/photos/UMOrfrVby6M)
 * [Tom Morbey](https://unsplash.com/photos/r1SwcagHVG0)
 * [Tom Morbey](https://unsplash.com/photos/QJz32ZuCArg)
-* []()
-* []()
+* [Remove a specific word in a string](https://www.codegrepper.com/code-examples/java/remove+specific+word+from+string+javascript)
+* [Only display img with this key word](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
 * []()

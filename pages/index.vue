@@ -27,6 +27,10 @@ body {
   @apply mt-16 mb-20
 }
 
+.day-section h2 {
+  font-family: 'Metal Mania', cursive;
+}
+
 .skateroutput {
   display: flex;
   justify-content: center;
@@ -39,17 +43,14 @@ body {
 }
 
 .skateroutput img {
-  @apply w-96
+  @apply w-96 rounded-xl
 } 
-
-.hero-pic h1, h2, p {
-  font-family: 'Metal Mania', cursive;
-  text-align: center;
-}
 
 .hero-section {
   background-color: hsla(1, 10%, 10%, 0.8);
   margin-top: 15rem;
+  font-family: 'Metal Mania', cursive;
+  text-align: center;
 }
 
 .hero-text {
@@ -83,20 +84,19 @@ body {
 </style>
 
 <script>
-  const instagramApi = async () => {
-  const response = await fetch('/.netlify/functions/skaterapi')
+  const instagramApi = async () => { 
+  const response = await fetch('/.netlify/functions/skaterapi') // Searches for api function
   const data = await response.json()
-  const skater = data.find((item) => item.caption.includes('#skateroftheday'))
-  const displaySkater = document.querySelector('.skateroutput')
-  // INNER HTML HERE
+  const skater = data.find((item) => item.caption.includes('#skateroftheday')) // Only returns posts with #skateroftheday
+  const displaySkater = document.querySelector('.skateroutput') 
 
    displaySkater.innerHTML = `
    <figure>
    <img src='${skater.url}' alt="An image of our daily skater">
    <p class="skatertext">${skater.caption.replace('#skateroftheday', '')}</p>
    </figure>
-  `
-  console.log(data)
-  }
-instagramApi()
+  ` 
+  console.log(data) // Logs the data
+  } 
+instagramApi() // Runs the API function on html
 </script>
