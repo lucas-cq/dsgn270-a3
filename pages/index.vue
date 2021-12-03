@@ -27,11 +27,15 @@ body {
   @apply mt-16 mb-20
 }
 
-.skateroutput figure{
+.skateroutput {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
+}
+
+.skateroutput figure {
+  @apply bg-gray-900 rounded-xl
 }
 
 .skateroutput img {
