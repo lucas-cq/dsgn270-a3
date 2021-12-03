@@ -72,6 +72,7 @@ body {
   background-image: url(../static/assets/images/hero-skater.jpg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   height: 70vh;
   width: 100%;
 }
