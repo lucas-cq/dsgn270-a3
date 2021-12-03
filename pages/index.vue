@@ -5,7 +5,6 @@
       <div class="hero-text">
         <span class="hero-section rounded-lg">
           <h1 class="text-5xl m-6">BRASHER MAGAZINE</h1>
-          <p class="text-2xl text-center">Skate or Die !</p>
         </span>
       </div>
     </section>
